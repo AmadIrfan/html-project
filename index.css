@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.name h1{
+background-color: red;
+color: white;
+text-align: center;
+border: 2px solid black;
+border-radius: 10px;
+font-size: 25px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: rgb(87, 87, 185);
+    height: 50px;
+}
+.menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 15px 11px;
+    margin: 31px 21px;
+    color: aliceblue;
+    font-size: 17px;;
+}
+.menu ul li a:hover{
+   
+    color: rgb(12, 67, 114);
+    background-color: whilte;
+    border: 0px solid rgb(12, 67, 114);
+    font-size: 17px;;
+}

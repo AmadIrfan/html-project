@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            /* background-color: aqua; */
+            width: 100vw;
+            height:100vh;
+            /* border: 2px solid black; */
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: -1;
+        }
+        .in-main1{
+            cursor: pointer;
+             background-color: rgb(155, 182, 182);
+            width: 200px;
+            height:200px;
+            position: absolute;
+            z-index: 2;
+        }
+        .in-main2{
+             background-color: rgb(86, 112, 112);
+            width: 200px;
+            height:200px;
+            position: absolute;
+            transform: rotate(135deg);
+            z-index: 1;
+            cursor:pointer;
+            transition: 1s ease;
+        }
+        .in-main3{
+            position: absolute;
+            /* top: 250px; */
+            z-index: 25;
+        }
+        .in-main3 h1{
+            cursor: pointer;
+            
+        }
+        
+    </style>
+    <title>8star</title>
+</head>
+<body>
+    <div class="main">
+    <div class="in-main1"></div>
+    <div class="in-main2"></div>
+    <div class="in-main3">
+        <h1>Amad Irfan</h1>
+    </div>
+    </div>
+</body>
+</html>

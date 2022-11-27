@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rename</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .all {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            /* flex: 15; */
+        }
+
+        .name-1 {
+            display: none;
+        }
+
+        @media only screen and (max-width:1000px) {
+            .name-1 {
+                display: block;
+                color: gray;
+                background-color: green;
+                font-size: 70px;
+            }
+        }
+
+        .name-2 {
+            display: none;
+        }
+
+        @media (min-width:500px) and (max-width:900px) {
+            .name-2 {
+                display: block;
+                color: gray;
+                background-color: green;
+                font-size: 70px;
+            }
+        }
+
+        .name-3 {
+            display: none;
+        }
+
+        @media (min-width:500px) and (max-width:800px) {
+            .name-3 {
+                display: block;
+                color: gray;
+                background-color: green;
+                font-size: 70px;
+            }
+        }
+
+            .name-4 {
+                color: red;
+                font-size: 50px;
+                display:none;
+            }
+
+            @media (min-width:500px) and (max-width:700px) {
+                .name-4 {
+                    display: block;
+                    color: gray;
+                    background-color: green;
+                    font-size: 70px;
+                }
+            }
+
+            .name-5 {
+                display: none;
+            }
+
+            /* @media (min-width:500px) and (max-width:600px) {
+                .name-5 {
+                    display: block;
+                    color: gray;
+                    background-color: green;
+                    font-size: 70px;
+                }
+            } */
+            .name-6{
+                display: none;
+            }
+            @media (min-width:0px) and (max-width:500px) {
+                .name-6 {
+                    display: block;
+                    color: gray;
+                    background-color: green;
+                    font-size: 70px;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="name-1">Irfan Mehmood</div>
+        <div class="name-2">Amad Irfan</div>
+        <div class="name-3">Saad Irfan</div>
+        <div class="name-4">Jawad Irfan</div>
+        <div class="name-5">Ahmad Tariq</div>
+        <div class="name-6">The End</div>
+
+    </div>
+</body>
+</html>

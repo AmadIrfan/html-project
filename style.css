@@ -1,0 +1,76 @@
+body {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.messages {
+  /* change background */
+  background-image: url('download.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo img {
+  width: 146px;
+  margin: 0 44%;
+  padding: 50px 0px 0px 0px;
+  box-shadow: 10px 10px 20px rgb(63, 63, 65);
+}
+
+.text h1 {
+  text-align: center;
+  padding: 5px 0px;
+  border: 2px solid black;
+}
+
+.navigation ul li {
+  list-style: none;
+}
+
+.head h1 {
+  margin: 20px;
+  text-align: center;
+  outline: 2px solid black;
+}
+
+.messages p {
+  margin: 20px 20px;
+  text-align: justify;
+}
+.last h1 {
+  text-align: center;
+  border: 2px solid black;
+}
+.table h1{
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.about h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+table{
+    width: 100%;
+text-align: center;
+}
+.navigation ul li a{
+    font-size: 25px;
+}
+.navigation ul li .anc1{
+    background-color: rgb(238, 16, 164);
+    color: white;
+}
+.navigation ul li .anc2{
+    background-color: rgb(5, 103, 121);
+    color: white;
+}
+.navigation ul li .anc3{
+    background-color: rgb(70, 145, 9);
+    color: white;
+}
+.navigation ul li .anc4{
+    background-color: rgb(39, 109, 105);
+    color: white;
+}

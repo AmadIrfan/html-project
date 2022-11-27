@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay</title>
+</head>
+<body>
+    <form action="backend.php">
+        <h1>
+            Payment
+        </h1>
+        <h2>
+           Required Information:
+        </h2>
+        <p><label for="name">Name*:</label> <br>
+            <input type="text" name="myname" id="name" required></p>
+        <p><label for="cnt">Contect Number*:</label> <br>
+            <input type="tel" name="mycnt" id="cnt" required></p>
+            <p><label for="ta">Address:</label> <br>
+                <textarea name="ta" id="ta" cols="30" rows="10"
+                ></textarea>    
+            </p>
+        <p><label for="Card">Card Number*:</label> <br>
+            <input type="number" name="mycard" id="Card" required></p>
+            <p>
+                <label for="pass">Pin code*:</label> <br>
+                <input type="password" name="pass" id="pass" required >
+            </p>
+            <p>
+                <label for="ct"> Card type:<select name="ct" id="ct">
+                    <option value="sct">select Card type</option>
+                    <option value="1st">1<sub>st</sub></option>
+                    <option value="1nd">2<Sub>nd</Sub></option>
+                    <option value="1rd">3<sub>rd</sub></option>
+                    <option value="4th">4<sub>th</sub></option>
+                </select>
+                </label>
+               
+            </p>
+    </form>
+</body>
+</html>
