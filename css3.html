@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+          * {
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+          }
+          body{
+               background-color: blueviolet;
+          }
+
+          /* header start's here */
+
+          header {
+               position: relative;
+          }
+
+          .logo-img img {
+               margin: 5px 75px;
+               
+               width: 50px;
+               height: 50px;
+               border-radius: 50%;
+          }
+
+          /* nav {
+               margin: 10px;
+
+          } */
+
+          nav::before {
+               content: "";
+               background-color: rgb(105, 105, 214);
+               position: absolute;
+               top: 0;
+               right: 0;
+               z-index: -1;
+               height: 100%;
+               width: 100%;
+               
+          }
+
+          .top {
+               display: flex;
+               flex-direction: row;
+               align-items: center;
+               justify-content: space-between;
+          }
+
+          .manu1 {
+               display: flex;
+          }
+          
+          /* .manu2 {
+               display: flex;
+               flex-direction: column;
+               margin: 40px 40px;
+               padding: 10px;
+          }
+          .manu2 li a{
+               
+               margin: 40px 40px;
+               padding: 10px;
+          } */
+          .manu1 li {
+               text-decoration: none;
+               list-style: none;
+          }
+          
+          .manu1 li a {
+               text-decoration: none;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               color: rgb(255, 255, 255);
+               padding: 10px 40px;
+               margin: 5px;
+               border-radius: 10px;
+          }
+          .manu1 li a:hover{
+               background-color: #fff;
+              color: rgb(105, 105, 214);
+          }
+
+          /* header end's here */
+          /* section 1 start here */
+          section {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               margin-top: 10px;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+
+          section div img {
+               width: 100%;
+               height: auto;
+               border: 5px solid rgb(153, 122, 101);
+               outline: rgb(153, 122, 101);
+               box-shadow: 5px 5px 3px 8px rgb(109, 99, 99);
+               border-radius: 5px;
+          }
+
+          h1 {
+               text-align: center;
+               margin-top: 13px;
+               text-transform: capitalize;
+               text-shadow: 2px 2px rgb(124, 115, 115);
+
+          }
+
+          .s2 {
+               text-align: center;
+               width: 80%;
+          }
+
+          .s2 p::first-letter {
+               color: rgb(109, 99, 99);
+               text-shadow: 2px 2px black;
+               font-size: 50px;
+               float: left;
+               margin: 0;
+               padding: 0;
+          }
+
+          .s2 p::first-line {
+               font-weight: bold;
+               margin: 0;
+               padding: 0;
+               color: rgb(168, 155, 155);
+          }
+     </style>
+     <title>new</title>
+</head>
+
+<body>
+     <header>
+          <nav class="top">
+               <div class="logo-img">
+                    <img src="37311.JPG" alt="photo">
+               </div>
+               <ul class="manu1">
+                    <li><a href="#">Home</a>
+                         <!-- <ul class="manu2">
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">other</a></li>
+                              <li><a href="#">Pak</a></li>
+                         </ul> -->
+                    </li>
+                    <li><a href="#">Servises</a></li>
+                    <li><a href="#">Contect us</a></li>
+                    <li><a href="#">About us</a></li>
+               </ul>
+          </nav>
+     </header>
+     <section class="main">
+          <div><img src="37311.JPG" alt=""></div>
+
+          <div class="s2">
+               <h1>AMAD IRFAN</h1>
+               <p class="parafirst">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nostrum, doloribus obcaecati
+                    officiis exercitationem delectus, nobis inventore ut fuga eum suscipit? Ipsa sequi dignissimos
+                    reiciendis neque exercitationem doloribus maiores hic eius illo atque dolorum officia, delectus,
+                    molestias distinctio dolorem nulla recusandae sunt similique iusto impedit quasi beatae rerum veniam
+                    voluptatem! Consectetur totam impedit magnam sint fuga libero et dignissimos, quos facere soluta!
+                    Quia ullam expedita, non cupiditate maiores ipsum quos perspiciatis in dicta at consectetur
+                    repellendus sunt minus libero? Impedit dolorem quia modi facere sapiente, nobis, ducimus blanditiis
+                    quas quaerat odit dolorum voluptatum! Unde ad nobis cum assumenda ducimus. Nam, iure.
+               </p>
+          </div>
+
+     </section>
+</body>
+
+</html>
